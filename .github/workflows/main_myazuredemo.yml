@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: AzureDemo
-          path: '${{ github.workspace }}/build/lib/AzureDemo-0.0.1.jar'
+          path: '${{ github.workspace }}/build/libs/AzureDemo-0.0.1.jar'
 
   deploy:
     runs-on: ubuntu-latest

@@ -51,7 +51,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: AzureDemo
-          path: '${{ github.workspace }}/build/lib/AzureDemo-0.0.1.jar'
       
       - name: Deploy to Azure Web App
         id: deploy-to-webapp

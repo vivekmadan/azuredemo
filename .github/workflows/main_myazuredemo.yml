@@ -30,6 +30,9 @@ jobs:
       - name: Run build with Gradle Wrapper
         run: ./gradlew build
 
+      - name: List Files
+        run: ls -lrt
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
